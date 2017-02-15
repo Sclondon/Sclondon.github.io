@@ -22,13 +22,20 @@ p {
 	font-size: 2rem;
 }
 
-.doop a {
-	color : blue;
+.truth-btn a {
+	color : black;
 	font-size: 16px;
 	text-decoration: underline;
+	padding: 4px 4px;
+	border: 2px solid black;
 }
+
+.truth-btn a:active {
+	position: relative;
+	bottom: 2px;
+	color: red;
 
 #footer {
 	color: DarkSlateGray;
-	font-size: 8px;
+	font-size: 16px;
 }
