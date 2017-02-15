@@ -7,11 +7,15 @@ body {
 }
 h1 {
 	font-size: 64px;
+	font-weight: 100;
+	border: 1px soft black;
+	margin: 2px;
 }
 
 h2 {
 	color: #000000;
 	font-size: 1rem;
+	border: 5px solid gray;
 }
 
 .doop {
@@ -32,7 +36,7 @@ p {
 
 .truth-btn a:active {
 	position: relative;
-	bottom: 2px;
+	top: 2px;
 	color: red;
 
 #footer {
